@@ -1,4 +1,4 @@
-name: issue-management-service ci cd flow
+name: seshat-book-category-service ci cd flow
 
 on:
   push:
@@ -10,8 +10,8 @@ env:
   PROJECT_ID: ${{secrets.GKE_PROJECT}}
   SI_CLUSTER: seshat
   SI_ZONE: us-central1-c
-  DEPLOYMENT_NAME: issue-management-service
-  IMAGE: issue-management-service
+  DEPLOYMENT_NAME: seshat-book-category-service
+  IMAGE: seshat-book-category-service
   TAG: prod
 
 jobs:
